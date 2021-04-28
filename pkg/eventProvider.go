@@ -8,10 +8,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/zhj0811/gohfc/pkg/parseBlock"
 	"github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/zhj0811/gohfc/pkg/parseBlock"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"

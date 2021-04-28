@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/zhj0811/gohfc/pkg/parseBlock"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/zhj0811/gohfc/pkg/parseBlock"
 )
 
 // FabricClient expose API's to work with Hyperledger Fabric

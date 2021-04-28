@@ -179,8 +179,7 @@ func (lc *LedgerClientImpl) GetBlockByTxID(txid string, channelName string) (*pa
 	return filterBlock, nil
 }
 
-
-func (lc *LedgerClientImpl)GetFilterTxByTxID(txId string, channelName string) (*parseBlock.FilterTx, error) {
+func (lc *LedgerClientImpl) GetFilterTxByTxID(txId string, channelName string) (*parseBlock.FilterTx, error) {
 	if channelName == "" {
 		channelName = lc.client.Channel.ChannelId
 	}

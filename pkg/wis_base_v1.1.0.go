@@ -11,9 +11,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zhj0811/gohfc/pkg/parseBlock"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
+	"github.com/zhj0811/gohfc/pkg/parseBlock"
 )
 
 type WisHandler struct {

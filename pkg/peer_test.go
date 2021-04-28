@@ -11,9 +11,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/zhj0811/gohfc/pkg/testpb"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhj0811/gohfc/pkg/testpb"
 	"google.golang.org/grpc"
 )
 

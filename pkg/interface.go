@@ -7,10 +7,10 @@ package gohfc
 import (
 	"os"
 
-	"github.com/zhj0811/gohfc/pkg/parseBlock"
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
+	"github.com/zhj0811/gohfc/pkg/parseBlock"
 
 	"github.com/hyperledger/fabric-protos-go/orderer"
 )

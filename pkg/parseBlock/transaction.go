@@ -5,9 +5,9 @@ import (
 	utils "github.com/hyperledger/fabric/protoutil"
 )
 
-type FilterTx struct{
-	BlockNum  uint64               //区块编号
-	Timestamp int64 `protobuf:"bytes,3,opt,name=timestamp,proto3" json:"timestamp,omitempty"`	//秒
+type FilterTx struct {
+	BlockNum  uint64 //区块编号
+	Timestamp int64  `protobuf:"bytes,3,opt,name=timestamp,proto3" json:"timestamp,omitempty"` //秒
 }
 
 func FilterParseTransaction(block *common.Block, txId string) *FilterTx {
